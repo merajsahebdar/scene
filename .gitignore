@@ -1,0 +1,45 @@
+# Ignore IDEs' settings and tmps
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+[._]*.un~
+*~
+
+.vscode/*
+.history/
+
+# ...and dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# ...and testing
+/coverage
+
+# ...and next.js outputs
+/.next/
+/out/
+
+# ...and built
+/build
+
+# ...and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ...and local env files
+.env*.local
+
+# ...and vercel
+.vercel
+
+# ...and typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# ...and OSs' settings and tmps.
+.DS_Store
+._*
